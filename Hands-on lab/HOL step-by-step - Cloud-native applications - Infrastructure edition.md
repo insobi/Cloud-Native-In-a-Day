@@ -1507,7 +1507,7 @@ In this task, you will use Azure DevOps to automate the process for deploying th
 
       - task: AzureCLI@1
         inputs:
-          azureSubscription: 'azurecloud'
+          azureSubscription: 'azure resource manager'
           scriptLocation: 'inlineScript'
           inlineScript: |
             set -euo pipefail
